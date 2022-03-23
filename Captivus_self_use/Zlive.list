@@ -1,10 +1,10 @@
 # > Zlive
-DOMAIN-SUFFIX,msstatic.com,Zlive
-DOMAIN-SUFFIX,oneway.mobi,Zlive
-DOMAIN-SUFFIX,douyucdn.cn,Zlive
-DOMAIN-SUFFIX,douyucdn2.cn,Zlive
-DOMAIN-SUFFIX,douyuscdn.com,Zlive
-DOMAIN-SUFFIX,douyutv.com,Zlive
-DOMAIN-KEYWORD,zlive,Zlive
-DOMAIN-KEYWORD,douyu,Zlive
-DOMAIN-KEYWORD,huya,Zlive
+DOMAIN-SUFFIX,msstatic.com
+DOMAIN-SUFFIX,oneway.mobi
+DOMAIN-SUFFIX,douyucdn.cn
+DOMAIN-SUFFIX,douyucdn2.cn
+DOMAIN-SUFFIX,douyuscdn.com
+DOMAIN-SUFFIX,douyutv.com
+DOMAIN-KEYWORD,zlive
+DOMAIN-KEYWORD,douyu
+DOMAIN-KEYWORD,huya
