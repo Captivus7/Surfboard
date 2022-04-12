@@ -67,7 +67,6 @@ DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,dldir1.qq.com
 DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,dlied1.cdntips.net
 DOMAIN-KEYWORD,wechat
 DOMAIN-KEYWORD,weixin
 IP-CIDR,101.32.104.4/32,no-resolve
