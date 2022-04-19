@@ -58,6 +58,8 @@ IP-CIDR,220.181.174.34/32,no-resolve
 DOMAIN,wx.qlogo.cn
 DOMAIN,soup.v.qq.com
 DOMAIN,wxapp.tc.qq.com
+DOMAIN,mmbiz.qpic.cn
+DOMAIN,shmmsns.qpic.cn
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatlegal.net
@@ -65,7 +67,6 @@ DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,weixinsxy.com
-DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,dldir1.qq.com
 DOMAIN-SUFFIX,servicewechat.com
@@ -80,8 +81,8 @@ IP-CIDR,101.32.133.53/32,no-resolve
 IP-CIDR,101.32.133.209/32,no-resolve
 IP-CIDR,129.226.3.47/32,no-resolve
 IP-CIDR,129.226.107.244/32,no-resolve
-IP-CIDR,49.51.0.0/16,no-resolve
 IP-CIDR,43.135.0.0/19,no-resolve
 IP-CIDR,43.155.0.0/19,no-resolve
+IP-CIDR,49.51.0.0/16,no-resolve
 IP-CIDR,203.205.128.0/17,no-resolve
 IP-CIDR,203.205.64.0/19,no-resolve
