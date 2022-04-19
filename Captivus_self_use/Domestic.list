@@ -129,4 +129,4 @@ DOMAIN-SUFFIX,zoho.com
 IP-CIDR,161.117.0.0/16,no-resolve
 IP-CIDR,47.240.0.0/14,no-resolve
 IP-CIDR,47.244.0.0/15,no-resolve
-
+IP-CIDR,47.74.0.0/15,no-resolve
