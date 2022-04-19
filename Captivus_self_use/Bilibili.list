@@ -24,7 +24,6 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,smtcdns.net
 IP-CIDR,45.43.32.234/32,no-resolve
-IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,128.1.62.200/32,no-resolve
 IP-CIDR,128.1.62.201/32,no-resolve
 IP-CIDR,150.116.92.250/32,no-resolve
