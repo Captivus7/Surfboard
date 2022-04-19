@@ -77,6 +77,9 @@ DOMAIN-SUFFIX,dldir1.qq.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-KEYWORD,wechat
 DOMAIN-KEYWORD,weixin
-IP-CIDR,43.155.124.0/24,no-resolve
+IP-CIDR,101.32.104.0/24,no-resolve
 IP-CIDR,101.32.118.0/24,no-resolve
+IP-CIDR,203.205.220.0/24,no-resolve
+IP-CIDR,43.135.105.0/24,no-resolve
+IP-CIDR,43.155.124.0/24,no-resolve
 IP-CIDR,49.51.89.0/24,no-resolve
