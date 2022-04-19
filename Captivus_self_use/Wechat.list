@@ -59,6 +59,7 @@ DOMAIN,wx.qlogo.cn
 DOMAIN,soup.v.qq.com
 DOMAIN,wxapp.tc.qq.com
 DOMAIN,mmbiz.qpic.cn
+DOMAIN,mmbiz.qlogo.cn
 DOMAIN,shmmsns.qpic.cn
 DOMAIN,szmmsns.qpic.cn
 DOMAIN,mmsns.qpic.cn
@@ -77,3 +78,5 @@ DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-KEYWORD,wechat
 DOMAIN-KEYWORD,weixin
 IP-CIDR,43.155.124.0/24,no-resolve
+IP-CIDR,101.32.118.0/24,no-resolve
+IP-CIDR,49.51.89.0/24,no-resolve
