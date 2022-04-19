@@ -78,7 +78,6 @@ DOMAIN-SUFFIX,jellyfin.xeton.dev
 DOMAIN-SUFFIX.xeton.dev
 DOMAIN-SUFFIX.cjpc.cc
 DOMAIN-SUFFIX,cristiamo.xyz
-IP-CIDR,161.97.148.156/24,no-resolve
 # > Netflix
 DOMAIN,api.fast.com
 DOMAIN.com.edgesuite.net
@@ -170,11 +169,6 @@ IP-CIDR,64.120.128.0/17,no-resolve
 IP-CIDR,66.197.128.0/17,no-resolve
 IP-CIDR,69.53.224.0/19,no-resolve
 IP-CIDR,8.41.4.0/24,no-resolve
-IP-CIDR6,2607:fb10::/32,no-resolve
-IP-CIDR6,2620:10c:7000::/44,no-resolve
-IP-CIDR6,2a00:86c0::/32,no-resolve
-IP-CIDR6,2a03:5640::/32,no-resolve
-PROCESS-NAME,com.netflix.mediaclient
 # > Disney
 DOMAIN-SUFFIX,20thcenturystudios.com.au
 DOMAIN-SUFFIX,20thcenturystudios.com.br
@@ -333,5 +327,3 @@ DOMAIN-SUFFIX,thestationbymaker.com
 DOMAIN-SUFFIX,thisispolaris.com
 DOMAIN-SUFFIX,watchdisneyfe.com
 DOMAIN-SUFFIX,watchespn.com
-PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
-PROCESS-NAME,com.disney.disneyplus
