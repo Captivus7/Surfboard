@@ -56,6 +56,8 @@ IP-CIDR,220.181.174.226/32,no-resolve
 IP-CIDR,220.181.174.34/32,no-resolve  
 # > Wechat
 DOMAIN,wx.qlogo.cn
+DOMAIN,soup.v.qq.com
+DOMAIN,wxapp.tc.qq.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatlegal.net
