@@ -1,4 +1,14 @@
 # > 阅读
+DOMAIN,m.qidian.com
+DOMAIN,vipreader.qidian.com
+DOMAIN,qidian.qpic.cn
+DOMAIN-SUFFIX,qidian.com
+DOMAIN,so.9txs.org
+DOMAIN,www.dengyulai.org
+DOMAIN,statics.rungean.com
+DOMAIN,www.baigujing001.com
+DOMAIN,bw.yiruiweb.xyz
+DOMAIN,so.9txs.com
 DOMAIN-SUFFIX,zongheng.com
 DOMAIN-SUFFIX,xcfcch.com
 DOMAIN-SUFFIX,81zw.com
@@ -10,8 +20,4 @@ DOMAIN-SUFFIX,yaochixs.net
 DOMAIN-SUFFIX,www.aabook.cc
 DOMAIN-SUFFIX,baicongjun.com
 DOMAIN-SUFFIX,jiaston.com
-DOMAIN,www.dengyulai.org
-DOMAIN,statics.rungean.com
-DOMAIN,www.baigujing001.com
-DOMAIN,bw.yiruiweb.xyz
-DOMAIN,so.9txs.com
+DOMAIN-SUFFIX,yuewen.com
