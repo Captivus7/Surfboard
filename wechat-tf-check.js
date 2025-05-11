@@ -1,20 +1,31 @@
 // 微信 TestFlight 状态监控脚本（用于 Surge）
-const tfURL = "https://testflight.apple.com/join/Gy4BzQrs"; // 微信 TF 链接
+const tfURL = "https://testflight.apple.com/join/Gy4BzQrs";
 const tfName = "微信 TF";
+const cacheKey = "tf_wechat_status";
 const noticeTitle = "TestFlight 状态监控";
+
+function notifyStatus(status) {
+    const msg = status === "open" ? "已开放，可加入测试" : "已满员，等待空位";
+    $notification.post(noticeTitle, tfName, msg);
+    console.log(`${tfName} 状态变更：${msg}`);
+}
 
 $httpClient.get(tfURL, function (error, response, data) {
     if (error) {
-        console.log(`${tfName} 请求失败: ${error}`);
-        $notification.post(noticeTitle, tfName, "请求失败");
+        console.log(`请求失败: ${error}`);
         return $done();
     }
 
-    if (data.includes("This beta is full")) {
-        console.log(`${tfName} 当前满员`);
-    } else {
-        console.log(`${tfName} 已开放`);
-        $notification.post(noticeTitle, tfName, "已开放，可前往加入测试");
-    }
-    $done();
+    const isOpen = !data.includes("This beta is full");
+    const newStatus = isOpen ? "open" : "full";
+
+    $persistentStore.read(cacheKey, function (prevStatus) {
+        if (prevStatus !== newStatus) {
+            notifyStatus(newStatus);
+            $persistentStore.write(newStatus, cacheKey);
+        } else {
+            console.log(`${tfName} 状态无变化：${newStatus}`);
+        }
+        $done();
+    });
 });
